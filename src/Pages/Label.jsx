@@ -29,7 +29,7 @@ const PricingComponent = () => {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  Нийт 20 ширхэг
+                  Нийт 28 ширхэг
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -80,7 +80,7 @@ const PricingComponent = () => {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  Нийт 20 ширхэг
+                  Нийт 8 ширхэг
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -133,7 +133,7 @@ const PricingComponent = () => {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  Нийт 20 ширхэг
+                  Нийт 0 ширхэг
                 </li>
                 <li className="flex items-center">
                   <svg
@@ -150,7 +150,7 @@ const PricingComponent = () => {
                       d="M5 13l4 4L19 7"
                     ></path>
                   </svg>
-                  Англи хэл дээр
+                  Монгол хэл дээр
                 </li>
               </ul>
             </div>
