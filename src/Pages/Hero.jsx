@@ -3,8 +3,10 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Агуулга", href: "/Label" },
+  { name: "Агуулга", href: "/#" },
   { name: "Тухай", href: "#" },
+  { name: "Удахгүй", href: "#" },
+  { name: "Удахгүй", href: "#" },
 ];
 
 export default function Example() {
@@ -49,7 +51,7 @@ export default function Example() {
               href="#"
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              Log in <span aria-hidden="true">&rarr;</span>
+              {/* log in */}
             </a>
           </div>
         </nav>
@@ -93,7 +95,7 @@ export default function Example() {
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
-                    Log in
+                    {/* login */}
                   </a>
                 </div>
               </div>

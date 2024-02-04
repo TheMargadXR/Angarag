@@ -8,6 +8,7 @@ import List1 from "./Pages/Lists/List1";
 import List2 from "./Pages/Lists/List2";
 import Footer from "./Pages/Footer";
 import Label from "./Pages/Label";
+import Contact from "./Pages/Contacts";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
       <List1 />
       <br />
       <List2 />
+      <Contact />
       <Footer />
     </>
   );
