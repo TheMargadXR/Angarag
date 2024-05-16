@@ -1,7 +1,7 @@
 import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import { useNavigate, Link } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/Logo1.png";
 
 import {
   ArrowPathIcon,
@@ -20,10 +20,22 @@ import {
 
 const products = [
   {
+    name: "Тестийн сан",
+    description: "5-12 анги",
+    href: "#",
+    icon: ChartPieIcon,
+  },
+  {
+    name: "Power Point",
+    description: "6-12 анги",
+    href: "#",
+    icon: SquaresPlusIcon,
+  },
+  {
     name: "ЭЕШ",
     description: "2020-2024",
     href: "#",
-    icon: ChartPieIcon,
+    icon: FingerPrintIcon,
   },
 ];
 const callsToAction = [];
@@ -43,7 +55,7 @@ export default function Example() {
       >
         <div className="flex lg:flex-1 ">
           <Link to={"/"} className="-m-1.5 p-1.5 font-semi leading-6 text-2xl">
-            <img src={logo} className="h-10 w-10 "></img>
+            <img src={logo} className="h-10 w-12 "></img>
           </Link>
         </div>
         <div className="flex lg:hidden">
@@ -59,7 +71,7 @@ export default function Example() {
         <Popover.Group className="hidden lg:flex lg:gap-x-12">
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-              Тестийн төрлүүд
+              Материулууд
               <ChevronDownIcon
                 className="h-5 w-5 flex-none text-gray-400"
                 aria-hidden="true"

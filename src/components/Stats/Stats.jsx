@@ -1,14 +1,13 @@
 const stats = [
-  { id: 1, name: "Нийт хэрэглэгчдийн тоо", value: "10,000" },
-  { id: 2, name: "Цаг тутам хэрэглэж буй хэрэглэгчид", value: "1000" },
-  { id: 3, name: "Тестийн сантай", value: "800" },
-  { id: 4, name: "Хамгийн өндөр оноо", value: "16,000" },
+  { id: 1, name: "Элсэлтийн ерөнхий шалгалт", value: "1" },
+  { id: 2, name: "Power Point хичээл", value: "28" },
+  { id: 3, name: "Тестийн сан", value: "7" },
 ];
 export default function Example() {
   return (
-    <div className="bg-white py-24 sm:py-32">
+    <div className="bg-white py-20 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-4">
+        <dl className="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
           {stats.map((stat) => (
             <div
               key={stat.id}

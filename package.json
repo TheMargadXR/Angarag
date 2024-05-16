@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/react": "^18.2.75",
     "@types/react-dom": "^18.2.24",
+    "@vercel/analytics": "^1.2.2",
     "axios": "^1.6.8",
     "flowbite-react": "^0.8.0",
     "react": "^18.2.0",
