@@ -1,5 +1,7 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import card1 from "../assets/card1.png";
 import card2 from "../assets/card2.png";
 import card3 from "../assets/card3.png";
@@ -8,7 +10,7 @@ const products = [
   {
     id: 1,
     name: "Basic Tee",
-    href: "#",
+    href: "/category3",
     imageSrc: card1,
     imageAlt: "yeshiin category zurag",
     price: "$35",
@@ -17,7 +19,7 @@ const products = [
   {
     id: 1,
     name: "Basic Tee",
-    href: "#",
+    href: "/category2",
     imageSrc: card2,
     imageAlt: "yeshiin category zurag",
     price: "$35",
@@ -26,7 +28,7 @@ const products = [
   {
     id: 1,
     name: "Basic Tee",
-    href: "#",
+    href: "/category1",
     imageSrc: card3,
     imageAlt: "yeshiin category zurag",
     price: "$35",
@@ -35,7 +37,7 @@ const products = [
   {
     id: 1,
     name: "Basic Tee",
-    href: "#",
+    href: "/category1",
     imageSrc: card3,
     imageAlt: "yeshiin category zurag",
     price: "$35",
@@ -58,11 +60,13 @@ export default function Category() {
               className="cursor-pointer hover:scale-110 duration-200"
             >
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none ">
-                <img
-                  src={product.imageSrc}
-                  alt={product.imageAlt}
-                  className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-                />
+                <Link to={product.href}>
+                  <img
+                    src={product.imageSrc}
+                    alt={product.imageAlt}
+                    className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                  />
+                </Link>
               </div>
             </div>
           ))}

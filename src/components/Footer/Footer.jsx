@@ -1,13 +1,14 @@
 import logo from "../assets/logo.png";
+import logo1 from "../assets/Logo1.png";
 function Footer() {
   return (
     <footer className="bg-gradient-to-r from-gray-100 bg-[#4CCD99] to-gray-100">
       <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
-            <img src={logo} class="mr-5 h-6 sm:h-9" alt="logo" />
+            <img src={logo1} class="mr-5 h-6 sm:h-9" alt="logo" />
             <p class="max-w-xs mt-4 text-sm text-gray-600">
-              Нийгмийн ухааны чиглэлийн тестийн сангийн систем
+              Англи хэлний цахим сургалтын сан
             </p>
             <div class="flex mt-8 space-x-6 text-gray-600">
               <a class="hover:opacity-75" href target="_blank" rel="noreferrer">
@@ -109,7 +110,7 @@ function Footer() {
                   Утас : +976 88197747
                 </a>
                 <a class="hover:opacity-75" href>
-                  Имайл : Niigeem@g.com
+                  Имайл : Angaragch@gmail.com
                 </a>
                 <a class="hover:opacity-75" href>
                   Байршил : Сургууль
@@ -118,7 +119,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <p class="mt-8 text-xs text-gray-800">© 2024 Niigem 800 LLC</p>
+        <p class="mt-8 text-xs text-gray-800">© 2024 English</p>
       </div>
     </footer>
   );

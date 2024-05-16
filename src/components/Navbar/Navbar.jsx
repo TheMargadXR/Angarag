@@ -22,19 +22,19 @@ const products = [
   {
     name: "Тестийн сан",
     description: "5-12 анги",
-    href: "#",
+    href: "/category2",
     icon: ChartPieIcon,
   },
   {
     name: "Power Point",
     description: "6-12 анги",
-    href: "#",
+    href: "/category1",
     icon: SquaresPlusIcon,
   },
   {
     name: "ЭЕШ",
     description: "2020-2024",
-    href: "#",
+    href: "/category3",
     icon: FingerPrintIcon,
   },
 ];
@@ -132,9 +132,12 @@ export default function Example() {
             </Transition>
           </Popover>
 
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+          <Link
+            to="/category"
+            className="text-sm font-semibold leading-6 text-gray-900"
+          >
             Категори
-          </a>
+          </Link>
           <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
             Агуулга
           </a>
@@ -196,7 +199,7 @@ export default function Example() {
                             href={item.href}
                             className="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                           >
-                            {item.name}
+                            <Link to={item.href}>{item.name}</Link>
                           </Disclosure.Button>
                         ))}
                       </Disclosure.Panel>

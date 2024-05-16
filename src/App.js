@@ -4,6 +4,12 @@ import Sign from "./page/Sign";
 import Contact from "./page/Contact";
 import Login from "./page/Login";
 import Navbar from "./components/Navbar/Navbar";
+import Category from "./page/Category";
+import Category1 from "./page/Category1";
+
+import Category2 from "./page/Category2";
+import Category3 from "./page/Category3";
+
 import "./App.css";
 
 function App() {
@@ -16,6 +22,10 @@ function App() {
           <Route path="/signup" element={<Sign />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/category" element={<Category />} />
+          <Route path="/category1" element={<Category1 />} />
+          <Route path="/category2" element={<Category2 />} />
+          <Route path="/category3" element={<Category3 />} />
         </Routes>
       </BrowserRouter>
     </div>
